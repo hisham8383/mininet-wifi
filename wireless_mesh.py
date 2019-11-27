@@ -25,7 +25,7 @@ def topology(mobility):
 
     info("*** Creating nodes\n")
     if mobility:
-        host = net.addHost('host', position='90,90,0', mac='00:00:00:00:00:01', ip='10.0.0.1/8')
+        host = net.addHost('host')
         sta1 = net.addStation('sta1', position='20,70,0', range=5)
         sta2 = net.addStation('sta2', position='50,70,0', range=5)
         sta3 = net.addStation('sta3', position='80,70,0', range=5)
